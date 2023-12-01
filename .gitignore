@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 webhook/data/*
+Telegram_Bot/secrets.py
 
 # C extensions
 *.so
