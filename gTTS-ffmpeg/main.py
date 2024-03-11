@@ -19,7 +19,8 @@ def text_to_speech(text):
     .output("./gTTS-ffmpeg/output.mp3")
     .run(overwrite_output=True)
     )
-    os.system('cvlc --play-and-exit ' + "./gTTS-ffmpeg/output.mp3")
+    os.system('ffplay -autoexit ' + "./gTTS-ffmpeg/output.mp3" + " -nodisp")
+    
 
 
 text_to_speech("Bullseye!. 78")
