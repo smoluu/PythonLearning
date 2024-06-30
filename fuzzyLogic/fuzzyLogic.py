@@ -15,7 +15,7 @@ class Expert:
 
 class Selector:
     def __init__(self) -> None:
-        self.audiop = 10
+        self.audiop = 20
         self.lightp = 2
         self.stagep = 5
         self.generalp = 1
