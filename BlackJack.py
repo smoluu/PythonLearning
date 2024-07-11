@@ -104,22 +104,22 @@ def printplayers(player, dealer):
     result = checkplayers(player, dealer)
     player.sort()
     dealer.sort()
-    print("Player:", end=" ")
+    print("player:", end=" ")
     for i in range(len(player)):
         if player[i] == 14:
-            print("ACE", end=" ")
+            print("ace", end=" ")
             continue
         print(player[i], end=" ")
     print()
-    print("Dealer:", end=" ")
+    print("dealer:", end=" ")
     for i in range(len(dealer)):
         if dealer[i] == 14:
-            print("ACE", end=" ")
+            print("ace", end=" ")
             continue
         print(dealer[i], end=" ")
     print()
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~")
-    print("Player:", result[0], "Dealer:", result[1])
+    print("player:", result[0], "dealer:", result[1])
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 
